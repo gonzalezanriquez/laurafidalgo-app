@@ -101,7 +101,7 @@
     </div>    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
         <a href="#">
             <img src="{{asset('images/docentes/Marcelo Duran.jpg')}}"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl object-top" />
             <div class="px-4 py-3 w-72">
                 <p class="text-lg font-bold text-black truncate block capitalize">Marcelo Duran</p>
                 <span class="text-gray-600 font-bold mr-3 uppercase text-xs">Profesor de danza</span>
@@ -111,7 +111,7 @@
     </div>    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
         <a href="#">
             <img src="{{asset('images/docentes/Nestor Toschi.jpeg')}}"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl object-top" />
             <div class="px-4 py-3 w-72">
                 <p class="text-lg font-bold text-black truncate block capitalize">Nestor Toschi</p>
                 <span class="text-gray-600 font-bold mr-3 uppercase text-xs">Profesor de danza</span>
@@ -132,10 +132,10 @@
         </a>
     </div>
 
-    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl object-top">
         <a href="#">
             <img src="{{asset('images/docentes/Santiago Errecalde.jpg')}}"
-                    alt="Product" class="h-80 w-72 object-cover rounded-t-xl" />
+                    alt="Product" class="h-80 w-72 object-cover object-top rounded-t-xl" />
             <div class="px-4 py-3 w-72">
                 <p class="text-lg font-bold text-black truncate block capitalize">Santiago Errecalde</p>
                 <span class="text-gray-600 font-bold mr-3 uppercase text-xs">Profesor de danza</span>
