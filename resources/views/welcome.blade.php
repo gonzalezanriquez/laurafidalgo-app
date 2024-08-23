@@ -2,12 +2,9 @@
 
     <main class="">
 
-
-
-{{--
-      <x-video/> --}}
       <x-hero/>
       <x-timeline/>
+      
       <x-laura/>
       <x-testimonial/>
       <x-posts/>

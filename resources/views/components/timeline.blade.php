@@ -1,63 +1,3 @@
-{{-- <section>
-    <div class="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-7xl">
-      <div class="relative flex flex-wrap">
-        <div class="absolute top-4 left-0 right-0 hidden lg:block h-[1px]">
-          <div class="h-[1px] w-full bg-black">‌</div>
-        </div>
-        <div class="z-10 grid w-full mb-4 lg:gap-8 lg:grid-cols-4">
-          <article class="w-full">
-            <span class="z-10 flex items-center justify-center w-8 h-8 text-white bg-black rounded-full step">PASION</span>
-            <div>
-              <h3 class="mt-8 text-lg font-medium leading-6 text-black lg:mt-10">
-                Complete your profile
-              </h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Ensure your profile is up-to-date with the latest information to
-                streamline the setup process.
-              </p>
-            </div>
-          </article>
-          <article class="w-full">
-            <span class="z-10 flex items-center justify-center w-8 h-8 text-white bg-black rounded-full step">2</span>
-            <div>
-              <h3 class="mt-8 text-lg font-medium leading-6 text-black lg:mt-10">
-                Import your data
-              </h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Import your existing data into the system to keep everything
-                synced and up-to-date.
-              </p>
-            </div>
-          </article>
-          <article class="w-full">
-            <span class="z-10 flex items-center justify-center w-8 h-8 text-white bg-black rounded-full step">3</span>
-            <div>
-              <h3 class="mt-8 text-lg font-medium leading-6 text-black lg:mt-10">
-                Activate integrations
-              </h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Connect and activate integrations with other platforms to enhance
-                functionality.
-              </p>
-            </div>
-          </article>
-          <article class="w-full">
-            <span class="flex items-center justify-center w-8 h-8 text-white bg-black rounded-full">4</span>
-            <div>
-              <h3 class="mt-8 text-lg font-medium leading-6 text-black lg:mt-10">
-                Start coding
-              </h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Begin your development work using the platform's tools and
-                resources to create something amazing.
-              </p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section> --}}
-
 
   
   <section>
@@ -72,7 +12,7 @@
             <div class="mt-6">
               <h3 class="font-medium text-gray-900">Profesión</h3>
               <p class="mt-2 text-sm text-gray-500">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque consequatur magni eligendi voluptatem, harum et veniam beatae error molestiae repudiandae! Dolorem enim repellat similique fuga molestias, quos est culpa ipsam?
+ Formacion integral, brindando herramientas necesarias para desarrollar tu artista.
               </p>
             </div>
           </div>
@@ -84,8 +24,7 @@
             <div class="mt-6">
               <h3 class="font-medium text-gray-900">Pasion</h3>
               <p class="mt-2 text-sm text-gray-500">
-                spotless will remember all your changes to every element so you
-                can copy all changes at once!
+                Nuestro equipo y docentes te ayudaran a encontrar tu pasion por el arte, reforzando tus potencialidades 
               </p>
             </div>
           </div>
@@ -99,8 +38,7 @@
             <div class="mt-6">
               <h3 class="font-medium text-gray-900">Voluntad</h3>
               <p class="mt-2 text-sm text-gray-500">
-                Make screenshots of a particular part of the screen to share quick
-                and easy!
+                Junto a nuestras formacion, te enseñaran a encarar cada desafio desde la la voluntad y la pasion.
               </p>
             </div>
           </div>
@@ -115,7 +53,7 @@
             <div class="mt-6">
               <h3 class="font-medium text-gray-900">Disciplina</h3>
               <p class="mt-2 text-sm text-gray-500">
-                Instantly know what Tailwind breakpoint you're currently on.
+                Con una solida formacion, nuestros docentes estaran listo para brintarte herramientas y la seriedad que necesitas para alimentar tu carrera.
               </p>
             </div>
           </div>          
