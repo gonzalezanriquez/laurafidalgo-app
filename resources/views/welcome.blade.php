@@ -1,7 +1,10 @@
 <x-guest-layout>
 
     <main class="">
-{{-- 
+
+
+
+{{--
       <x-video/> --}}
       <x-hero/>
       <x-timeline/>

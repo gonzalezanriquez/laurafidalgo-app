@@ -7,6 +7,9 @@ use App\Http\Controllers\DocenteController;
 Route::resource('docentes', DocenteController::class);
 Route::resource('posts', PostController::class);
 
+// Route::get('/docentes', function () {
+//     return view('docentes');
+// })->name('docentes');
 
 Route::get('/', function () {
     return view('welcome');

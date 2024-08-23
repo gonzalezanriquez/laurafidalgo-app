@@ -26,7 +26,7 @@
           <a class="mr-auto text-2xl font-semibold leading-none" href="#">
             <img class="h-8" src="https://shuffle.dev/mockup-assets/logos/shuffle-ux.svg" alt="" width="auto" />
           </a>
-          
+
         </div>
         <div>
           <ul>
@@ -84,10 +84,11 @@
       </div>
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow gap-3 p-4 px-5 text-sm font-medium text-gray-500 md:px-0 md:pb-0 md:flex md:justify-start md:flex-row lg:p-0 md:mt-0 hidden text-white">
         <a class="hover:text-white focus:outline-none focus:text-amber-400 md:ml-auto" href="/">Inicio </a>
-        <a class="hover:text-white focus:outline-none focus:text-amber-400" href="">Clases</a>
+        <a class="hover:text-white focus:outline-none focus:text-amber-400" href="{{route('docentes.index')}}">Docentes</a>
+        {{-- <a class="hover:text-white focus:outline-none focus:text-amber-400" href="{{route('docentes.index')}}">Clases</a> --}}
         <a class="hover:text-white focus:outline-none focus:text-amber-400" href="">Laura Fidalgo</a>
-  
-  
+
+
       </nav>
     </div>
   </div>
