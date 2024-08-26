@@ -1,12 +1,12 @@
 <x-guest-layout>
 
     <main class="">
-
       <x-hero/>
       <x-timeline/>
-      
-      <x-laura/>
       <x-testimonial/>
+      
+      <x-cta/>
+      {{-- <x-laura/> --}}
       <x-posts/>
       <x-comentarios/>
       <x-mapa/>

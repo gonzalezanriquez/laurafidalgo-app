@@ -1,66 +1,102 @@
 
-  
-  <section>
-    <div class="px-8 py-2 mx-auto md:px-12 lg:px-32 max-w-7xl">
-      <div>
-          <div class="grid grid-cols-2 mt-12 gap-x-6 gap-y-12 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
-          <div>
-            <div>
-              <span class="flex items-center justify-center rounded-full size-12 bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="size-6 text-gray-600">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"></path></svg></span>
-            </div>
-            <div class="mt-6">
-              <h3 class="font-medium text-gray-900">Profesión</h3>
-              <p class="mt-2 text-sm text-gray-500">
- Formacion integral, brindando herramientas necesarias para desarrollar tu artista.
-              </p>
-            </div>
+<main class="my-8">
+  <div class="container mx-auto px-6">
+    <h2 class="text-center font-bold text-white text-6xl py-10 animate__animated  animate__fadeInUp font-custom ">Disciplinas</h2>
+
+      <div class="md:flex mt-8 md:-mx-4 animate__animated  animate__fadeInUp ">
+
+        <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105" style="background-image: url('{{asset('images/galeria3.jpg')}}')">
+              <div class="bg-black bg-opacity-30 flex items-center h-full">
+                  <div class="px-10 max-w-xl">
+                      <h2 class="text-5xl text-white font-semibold animate-fade-up animate-once animate-ease-in">Niños</h2>
+                      <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                          <span>Ver mas</span>
+                          <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                      </button>
+                  </div>
+              </div>
           </div>
-          <div>
-            <div>
-              <span class="flex items-center justify-center rounded-full size-12 bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="size-6 text-gray-600">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5"></path></svg></span>
+         
+          
+          <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105" style="background-image: url('{{asset('images/galeria1.jpg')}}')">
+            <div class="bg-black bg-opacity-30 flex items-center h-full">
+                <div class="px-10 max-w-xl">
+                    <h2 class="text-5xl text-white font-semibold ">Adolescentes</h2>
+                    <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                        <span>Ver mas</span>
+                        <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </button>
+                </div>
             </div>
-            <div class="mt-6">
-              <h3 class="font-medium text-gray-900">Pasion</h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Nuestro equipo y docentes te ayudaran a encontrar tu pasion por el arte, reforzando tus potencialidades 
-              </p>
-            </div>
-          </div>
-          <div>
-
-            <div>
-              <span class="flex items-center justify-center rounded-full size-12 bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="size-6 text-gray-600">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"></path>
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"></path></svg></span>
-            </div>
-            <div class="mt-6">
-              <h3 class="font-medium text-gray-900">Voluntad</h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Junto a nuestras formacion, te enseñaran a encarar cada desafio desde la la voluntad y la pasion.
-              </p>
-            </div>
-          </div>
-          <div>
-
-
-            <div>
-              <span class="flex items-center justify-center rounded-full size-12 bg-gray-100"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="size-6 text-gray-600">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3"></path></svg></span>
-            </div>
-
-            <div class="mt-6">
-              <h3 class="font-medium text-gray-900">Disciplina</h3>
-              <p class="mt-2 text-sm text-gray-500">
-                Con una solida formacion, nuestros docentes estaran listo para brintarte herramientas y la seriedad que necesitas para alimentar tu carrera.
-              </p>
-            </div>
-          </div>          
         </div>
 
-        
-        
+        <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105" style="background-image: url('{{asset('images/galeria4.jpg')}}')">
+          <div class="bg-black bg-opacity-30 flex items-center h-full">
+              <div class="px-10 max-w-xl">
+                  <h2 class="text-5xl text-white font-semibold ">Adultos</h2>
+                  <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                      <span>Ver mas</span>
+                      <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                  </button>
+              </div>
+          </div>
       </div>
     </div>
-  </section>
+
+
+        
+
+
+
+            
+{{--      
+      <div class="mt-16">
+          <h3 class="text-gray-600 text-2xl font-medium">Fashions</h3>
+          <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+              <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                  <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('{{asset('images/laura.jpg')}}')">
+                  
+                  </div>
+                  <div class="px-5 py-3">
+                      <h3 class="text-gray-700 uppercase">Chanel</h3>
+                      <span class="text-gray-500 mt-2">$12</span>
+                  </div>
+              </div>
+              <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                  <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')">
+                      <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                          <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                      </button>
+                  </div>
+                  <div class="px-5 py-3">
+                      <h3 class="text-gray-700 uppercase">Man Mix</h3>
+                      <span class="text-gray-500 mt-2">$12</span>
+                  </div>
+              </div>
+              <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                  <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('{{asset('images/laura.jpg')}}')">
+                      <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                          <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                      </button>
+                  </div>
+                  <div class="px-5 py-3">
+                      <h3 class="text-gray-700 uppercase">Classic watch</h3>
+                      <span class="text-gray-500 mt-2">$12</span>
+                  </div>
+              </div>
+              <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                  <div class="flex items-end justify-end h-56 w-full bg-cover" style="background-image: url('https://images.unsplash.com/photo-1590664863685-a99ef05e9f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=345&q=80')">
+                      <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                          <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                      </button>
+                  </div>
+                  <div class="px-5 py-3">
+                      <h3 class="text-gray-700 uppercase">woman mix</h3>
+                      <span class="text-gray-500 mt-2">$12</span>
+                  </div>
+              </div>
+          </div>
+      </div> --}}
+    
+  </div>
+</main>

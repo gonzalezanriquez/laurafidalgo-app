@@ -132,7 +132,7 @@
         </a>
     </div>
 
-    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl object-top">
+    <div class="w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl ">
         <a href="#">
             <img src="{{asset('images/docentes/Santiago Errecalde.jpg')}}"
                     alt="Product" class="h-80 w-72 object-cover object-top rounded-t-xl" />

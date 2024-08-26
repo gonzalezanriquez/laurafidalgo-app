@@ -11,18 +11,29 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <!-- Styles -->
+    <!-- Styles --> 
+    <style>
+        @font-face {
+            font-family: 'laura';
+            src: url('{{ asset('fonts/laura.ttf') }}') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
     @livewireStyles
 </head>
 
-<body>
+<body class="bg-gray-900 text-white">
     <x-navbar />
 
-    <div class="font-sans text-gray-900 antialiased">
+    <div class="font-sans antialiased text-white">
         {{ $slot }}
     </div>
 

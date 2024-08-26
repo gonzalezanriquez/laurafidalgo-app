@@ -1,5 +1,6 @@
-<section class="py-20">
+<section class="py-2">
     <div class="container mx-auto px-4">
+        <h2 class="font-bold text-center text-3xl pb-9">Nuestra comunidad</h2>
         <div class="-mx-4 flex flex-wrap">
             <div class="w-full p-4 lg:w-1/2">
                 <img class="h-80 w-full rounded-lg object-cover duration-500 hover:scale-105 hover:shadow-xl "

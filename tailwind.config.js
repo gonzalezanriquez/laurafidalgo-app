@@ -14,10 +14,24 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                custom: ['laura', 'sans-serif'],
+            },
+            animation: {
+                'fade-in': 'fade-in 0.6s ease-in',
+            },
+            keyframes: {
+                'fade-in': {
+                    '0%': {
+                        opacity: '0',
+                    },
+                    '100%': {
+                        opacity: '1',
+                    },
+                },
             },
         },
     },
 
     plugins: [forms, typography],
 };
+
