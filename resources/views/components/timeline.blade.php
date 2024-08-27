@@ -1,7 +1,7 @@
 
 <main class="my-8">
   <div class="container mx-auto px-6">
-    <h2 class="text-center font-bold text-white text-6xl py-10 animate__animated  animate__fadeInUp font-custom ">Disciplinas</h2>
+    <h2 class="text-center font-bold text-white text-6xl py-10 animate__animated  animate__fadeInUp font-custom block">Disciplinas</h2>
 
       <div class="md:flex mt-8 md:-mx-4 animate__animated  animate__fadeInUp ">
 
