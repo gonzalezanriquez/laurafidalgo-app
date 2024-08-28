@@ -2,7 +2,7 @@
 
 
     <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-2">
-        <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+        <div class="rounded-md border border-neutral-800 bg-slate-800 p-8 text-center shadow">
             <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style="background-image: linear-gradient(rgb(255, 213, 0) 0%, rgb(255, 213, 0) 100%); border-color: rgb(255, 213, 0);">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="24"
@@ -40,7 +40,7 @@
         </div>
 
 
-        <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+        <div class="rounded-md border border-neutral-800 bg-slate-800  p-8 text-center shadow">
             <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style="background-image: linear-gradient(rgb(255, 213, 0) 0%, rgb(255, 213, 0) 100%); border-color: rgb(255, 213, 0);">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="24"
@@ -81,7 +81,7 @@
         </div>
 
 
-        <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+        <div class="rounded-md border border-neutral-800 bg-slate-800  p-8 text-center shadow">
             <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style="background-image: linear-gradient(rgb(255, 213, 0) 0%, rgb(255, 213, 0) 100%); border-color: rgb(255, 213, 0);">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="24"
@@ -117,7 +117,7 @@
             </blockquote>
         </div>
 
-        <div class="rounded-md border border-neutral-800 bg-neutral-900/50 p-8 text-center shadow">
+        <div class="rounded-md border border-neutral-800 bg-slate-800  p-8 text-center shadow">
             <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border "
                 style="background-image: linear-gradient(rgb(255, 213, 0) 0%, rgb(255, 213, 0) 100%); border-color: rgb(255, 213, 0);">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message" width="24"

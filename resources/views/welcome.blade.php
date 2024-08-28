@@ -4,11 +4,9 @@
       <x-hero/>
       <x-timeline/>
       <x-testimonial/>
-      <h1 class="block">hello</h1>
-      <x-cta/>
-      {{-- <x-laura/> --}}
       <x-posts/>
       <x-comentarios/>
+      <x-cta/>
       <x-mapa/>
 
     </main>
