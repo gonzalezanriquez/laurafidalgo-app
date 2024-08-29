@@ -9,12 +9,11 @@ export default defineConfig({
                 'resources/js/app.js',
             ],
             refresh: true,
-            build: {
-                outDir: 'dist' // Make sure this is set to 'dist'
-              }
         }),
     ],
+    build: {
+        outDir: 'dist' // Set the output directory to 'dist'
+    }
 });
-
 
   
