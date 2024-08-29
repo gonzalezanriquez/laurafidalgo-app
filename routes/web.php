@@ -3,9 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\DocenteController;
+use App\Http\Controllers\ClasesController;
 
 Route::resource('docentes', DocenteController::class);
 Route::resource('posts', PostController::class);
+Route::resource('clases', ClasesController::class);
 
 // Route::get('/docentes', function () {
 //     return view('docentes');
