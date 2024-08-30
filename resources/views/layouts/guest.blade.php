@@ -30,7 +30,7 @@
     @livewireStyles
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class=" text-white">
     <x-navbar />
 
     <div class="font-sans antialiased text-white">
