@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class timeline extends Component
+class niveles extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class timeline extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.timeline');
+        return view('components.niveles');
     }
 }

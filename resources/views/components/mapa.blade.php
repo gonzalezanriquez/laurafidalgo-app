@@ -1,5 +1,5 @@
 
-<section class=" bg-slate-800  body-font relative mt-10">
+<section class=" bg-gradient-to-r from-slate-900 to-slate-700 body-font relative mt-10">
     <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
       <div class="bg-white lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.461338436308!2d-58.44505382350473!3d-34.56719155557146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c7a5ea526b%3A0x31f979cdd99b0b0e!2sStudio%20de%20Arte%20y%20Danzas%20Laura%20Fidalgo%20Sede%20Belgrano!5e0!3m2!1ses-419!2sar!4v1723953683314!5m2!1ses-419!2sar" style="filter:  contrast(1.2) opacity(0.8);"></iframe>
