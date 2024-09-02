@@ -1,7 +1,7 @@
 <section class="my-8">
     <div class="container mx-auto px-6">
         <h2
-            class="text-center font-bold text-white text-6xl py-10 animate__animated  animate__fadeInUp font-custom block">
+            class="text-center font-bold text-white text-6xl py-10  font-custom abajo">
             Disciplinas</h2>
 
     <div class="md:flex mt-8 md:-mx-4 space-y-8 md:space-y-0"> 
@@ -10,7 +10,7 @@
                 style="background-image: url('{{ asset('images/galeria3.jpg') }}') ">
                 <div class="bg-black bg-opacity-30 flex items-center h-full">
                     <div class="px-10 max-w-xl">
-                        <h2 class="text-3xl md:text-5xl text-white font-semibold animate-fade-up animate-once animate-ease-in">Niños
+                        <h2 class="text-3xl md:text-5xl text-white font-semibold ">Niños
                         </h2>
                         <button
                             class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">

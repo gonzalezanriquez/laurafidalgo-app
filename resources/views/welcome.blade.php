@@ -1,16 +1,7 @@
 <x-guest-layout>
 
-  <div class="bg-black">
-
-
-
-
-
-
-
+ 
     <main class="">
-
-
         <x-hero />
         <x-bienvenida /> 
         <x-niveles />
@@ -22,5 +13,5 @@
 
 
     </main>
-  </div>
+
 </x-guest-layout>

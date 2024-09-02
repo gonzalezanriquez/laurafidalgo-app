@@ -9,9 +9,6 @@ Route::resource('docentes', DocenteController::class);
 Route::resource('posts', PostController::class);
 Route::resource('clases', ClasesController::class);
 
-// Route::get('/docentes', function () {
-//     return view('docentes');
-// })->name('docentes');
 
 Route::get('/', function () {
     return view('welcome');
@@ -20,10 +17,10 @@ Route::get('/', function () {
 Route::get('/laura', function () {
     return view('laura');
 });
-
-// Route::get('/docentes', function () {
-//     return view('docentes');
+// Route::get('/clases', function () {
+//     return view('clases');
 // });
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

@@ -15,11 +15,11 @@
                 </svg>
             </button>
         </div>
-        <nav :class="{'flex': open, 'hidden': !open}" class="flex-col items-center flex-grow gap-3 p-4 px-5 text-sm font-medium text-gray-500 md:px-0 md:pb-0 md:flex md:justify-start md:flex-row lg:p-0 md:mt-0 hidden text-white">
-            <a class="hover:text-white focus:outline-none focus:text-amber-400 md:ml-auto" href="/">INICIO</a>
-            <a class="hover:text-white focus:outline-none focus:text-amber-400" href="{{route('docentes.index')}}">DOCENTES</a>
+        <nav :class="{'flex': open, 'hidden': !open}" class="block antialiased font-sans  leading-relaxed text-inherit flex-col items-center flex-grow gap-3 p-4 px-5 text-sm font-medium text-gray-500 md:px-0 md:pb-0 md:flex md:justify-start md:flex-row lg:p-0 md:mt-0 hidden text-white">
+            <a class="hover:text-white focus:outline-none focus:text-amber-400 md:ml-auto" href="/">Inicio</a>
+            <a class="hover:text-white focus:outline-none focus:text-amber-400" href="{{route('docentes.index')}}">Docentes</a>
             {{-- <a class="hover:text-white focus:outline-none focus:text-amber-400" href="{{route('docentes.index')}}">Clases</a> --}}
-            <a class="hover:text-white focus:outline-none focus:text-amber-400" href="#">SOBRE MI </a>
+            <a class="hover:text-white focus:outline-none focus:text-amber-400" href="#">Sobre Mi </a>
         </nav>
     </div>
 </div>
