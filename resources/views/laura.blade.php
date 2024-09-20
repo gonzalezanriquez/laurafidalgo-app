@@ -1,73 +1,67 @@
 <x-guest-layout>
-    <section class="text-gray-600 body-font">
-        <div class="max-w-5xl pt-52 pb-24 mx-auto">
-            <h1 class="text-6xl text-center font-4 lh-6 ld-04 font-bold text-white mb-6 font-custom">Sobre mi
-                </h1>
-            <h2 class="text-2xl font-4 font-semibold lh-6 ld-04 pb-11 text-gray-700 text-center">Laura Fidalgo. Artista, bailarina, actriz </h2>
+    <section class="py-32">
 
-        </div>
-        <div class="container flex flex-col items-center justify-center mx-auto"><img
-                class="object-cover object-center w-3/4 mb-10 border shadow-md g327" alt="Placeholder Image"
-                src="{{asset('images/laura.jpg')}}"></div>
-        <h2
-            class="pt-40 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-7xl md:text-6xl">
-            Clean and tidy code.</h2><br>
-        <p class="mx-auto text-xl text-center text-gray-300 font-normal leading-relaxed fs521 lg:w-2/3">Here is our
-            collection of free to use templates made with Next.js &amp; styled with Tailwind CSS.</p>
-        <div class="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3">
-            <div class="ktq4"><img class="w-10" src="{{asset('images/laura.jpg')}}">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-                    porttitor.</p>
-            </div>
-            <div class="ktq4"><img class="w-10" src="https://nine4.app/favicon.png">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-                    porttitor.</p>
-            </div>
-            <div class="ktq4"><img class="w-10" src="https://nine4.app/favicon.png">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-                    porttitor.</p>
-            </div>
-            <div class="ktq4"><img class="w-10" src="https://nine4.app/favicon.png">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit. Maecenas tincidunt a libero in finibus. Maecenas a nisl vitae ante rutrum
-                    porttitor.</p>
-            </div>
-        </div>
-        <div class="pt-32 pb-32 max-w-6xl mx-auto fsac4 md:px-1 px-3">
-            <div class="ktq4"><img src="https://nine4.app/images/nine4-3.png">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Fusce pharetra ligula mauris, quis faucibus
-                    lectus elementum vel. Nullam vehicula, libero at euismod tristique, neque ligula faucibus urna, quis
-                    ultricies massa enim in nunc. Vivamus ultricies, quam ut rutrum blandit, turpis massa ornare velit,
-                    in sodales tellus ex nec odio.</p>
-            </div>
-            <div class="ktq4"><img src="https://nine4.app/images/nine4-3.png">
-                <h3 class="pt-3 font-semibold text-lg text-white">Lorem ipsum dolor sit amet</h3>
-                <p class="pt-2 value-text text-md text-gray-200 fkrr1">Fusce pharetra ligula mauris, quis faucibus
-                    lectus elementum vel. Nullam vehicula, libero at euismod tristique, neque ligula faucibus urna, quis
-                    ultricies massa enim in nunc. Vivamus ultricies, quam ut rutrum blandit, turpis massa ornare velit,
-                    in sodales tellus ex nec odio.</p>
-            </div>
-        </div>
-        <section class="relative pb-24">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-                <div class="py-24 md:py-36">
-                    <h1 class="mb-5 text-6xl font-bold text-white">Subscribe to our newsletter</h1>
-                    <h1 class="mb-9 text-2xl font-semibold text-gray-200">Enter your email address and get our
-                        newsletters straight away.</h1><input type="email" placeholder="jack@example.com"
-                        name="email" autocomplete="email"
-                        class="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-700 bg-black">
-                    <a class="inline-flex items-center px-14 py-3 mt-2 ml-2 font-medium text-black transition duration-500 ease-in-out transform bg-transparent border rounded-lg bg-white"
-                        href="/"><span class="justify-center">Subscribe</span></a>
+        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+            <h2 class="text-5xl text-center text-white font-semibold font-custom mb-20">Sobre mí</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 h-auto md:h-full flex flex-col block">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="{{asset('images/laura.jpg')}}" alt="" class="absolute inset-0 h-full w-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                    </a>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-2">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
+                        <img src="{{asset('images/laura/1.jpg')}}" alt="" class="absolute inset-0 h-full w-full object-cover object-top group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                    </a>
+                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="{{asset('images/laura/2.jpg')}}" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+
+                        </a>
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="https://images.unsplash.com/photo-1626897505254-e0f811aa9bf7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-1 h-auto md:h-full flex flex-col">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="https://images.unsplash.com/photo-1693680501357-a342180f1946?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
     </section>
+
+
+
+    <main class="container mx-auto px-4">
+        <x-timeline/> 
+
+
+ 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
 </x-guest-layout>

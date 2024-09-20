@@ -30,10 +30,12 @@
     @livewireStyles
 </head>
 
-<body class=" text-white bg-black">
+<body class=" text-white bg-black ">
     <x-navbar />
 
     <div class="font-sans antialiased text-white">
+
+        
         {{ $slot }}
     </div>
 
