@@ -16,7 +16,7 @@ class CreateDocentesTable extends Migration
             $table->string('apellido');
             $table->string('foto')->nullable();
             $table->text('cv')->nullable(); // Path to CV or content
-            $table->json('horarios'); // JSON field to store schedules
+            $table->text('horarios'); // JSON field to store schedules
             $table->timestamps();
         });
     }

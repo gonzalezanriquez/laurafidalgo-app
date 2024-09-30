@@ -25,7 +25,7 @@ class DocenteController extends Controller
             'apellido' => 'required',
             'foto' => 'nullable|image',
             'cv' => 'nullable|mimes:pdf|max:2048',
-            'horarios' => 'required|json',
+            'horarios' => 'required',
         ]);
 
         $docente = new Docente();

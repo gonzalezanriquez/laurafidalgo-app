@@ -15,7 +15,10 @@ export default {
         extend: {
             fontFamily: {
                 custom: ['laura', 'sans-serif'],
+                sans: ['Poppins', 'sans-serif'],
+
             },
+           
             animation: {
                 'fade-in': 'fade-in 0.6s ease-in',
             },
