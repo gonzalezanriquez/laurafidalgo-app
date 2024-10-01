@@ -1,7 +1,7 @@
 
 <div x-data="{ open: false, scrolled: false }" 
      @scroll.window="scrolled = (window.pageYOffset > 50)" 
-     :class="scrolled ? 'bg-red-800 shadow-lg' : 'bg-transparent' "
+     :class="scrolled ? 'bg-black shadow-lg' : 'bg-transparent' "
      class="fixed w-full top-0 left-0 z-30 transition-colors duration-300 ">
     <div class="flex flex-col w-full px-8 py-5 mx-auto md:px-12 md:items-center md:justify-between md:flex-row lg:px-32 max-w-7xl ">
         <div class="flex flex-row items-center justify-between text-white">

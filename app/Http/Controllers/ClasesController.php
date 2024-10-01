@@ -12,8 +12,15 @@ class ClasesController extends Controller
      */
     public function index()
     {
-        $clases= Clases::all();
-        return view ('clases.index', compact('clases'));
+        $clases = Clases::all();
+        return view('clases.index', compact('clases'));
+    }
+
+    public function publicIndex()
+    {
+        $clases = Clases::all();  // O una consulta específica según lo que quieres mostrar
+
+        return view('clases.public', compact('clases'));
     }
 
     /**
@@ -21,7 +28,7 @@ class ClasesController extends Controller
      */
     public function create()
     {
-        return view ('clases.create');
+        return view('clases.create');
     }
 
     /**
@@ -29,7 +36,19 @@ class ClasesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Validate the form data
+        $validated = $request->validate([
+            'nombre' => 'required|string|max:255',
+            'descripcion' => 'required|string|max:1000',
+            'docente' => 'required|string|max:255',
+            'horario' => 'required|string|max:255',
+        ]);
+
+        // Create a new class record
+        Clases::create($validated);
+      
+        // Redirect to index with success message
+        return redirect()->route('clases.index')->with('success', 'Clase creada correctamente.');
     }
 
     /**
@@ -37,7 +56,11 @@ class ClasesController extends Controller
      */
     public function show(string $id)
     {
-        //
+        // Find the class by ID
+        $clase = Clases::findOrFail($id);
+        
+        // Show the specific class details
+        return view('clases.show', compact('clase'));
     }
 
     /**
@@ -45,7 +68,11 @@ class ClasesController extends Controller
      */
     public function edit(string $id)
     {
-        return view ('clases.edit');
+        // Find the class by ID
+        $clase = Clases::findOrFail($id);
+
+        // Show the edit form
+        return view('clases.edit', compact('clase'));
     }
 
     /**
@@ -53,7 +80,20 @@ class ClasesController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        // Validate the form data
+        $validated = $request->validate([
+            'nombre' => 'required|string|max:255',
+            'descripcion' => 'required|string|max:1000',
+            'docente' => 'required|string|max:255',
+            'horario' => 'required|string|max:255',
+        ]);
+
+        // Find the class by ID and update
+        $clase = Clases::findOrFail($id);
+        $clase->update($validated);
+
+        // Redirect to index with success message
+        return redirect()->route('clases.index')->with('success', 'Clase actualizada correctamente.');
     }
 
     /**
@@ -61,6 +101,11 @@ class ClasesController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        // Find the class by ID and delete
+        $clase = Clases::findOrFail($id);
+        $clase->delete();
+
+        // Redirect to index with success message
+        return redirect()->route('clases.index')->with('success', 'Clase eliminada correctamente.');
     }
 }
