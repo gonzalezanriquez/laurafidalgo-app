@@ -12,6 +12,12 @@ class DocenteController extends Controller
         $docentes = Docente::all();
         return view('docentes.index', compact('docentes'));
     }
+    public function publicIndex()
+    {
+        $docentes = Docente::all();  // O una consulta específica según lo que quieres mostrar
+
+        return view('docentes.public', compact('docentes'));
+    }
 
     public function create()
     {
