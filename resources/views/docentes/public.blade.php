@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="bg-gray-100 min-h-screen p-4 mt-20">
+    <div class="bg-gray-100 min-h-screen p-4 mt-10">
         <div class="container mx-auto pt-12 pb-20">
             <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
                 Nuestros Docentes

@@ -24,14 +24,18 @@
             font-weight: normal;
             font-style: normal;
         }
+        body {
+        font-family: 'Poppins', sans-serif;
+    }
+
     </style>
     @livewireStyles
 </head>
 
-<body class=" text-white bg-black ">
+<body class=" font-sans text-white bg-black ">
     
     <x-navbar />
-    <div class="  text-white">
+    <div class="  font-sans text-white">
 
         
         {{ $slot }}

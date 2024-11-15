@@ -1,8 +1,9 @@
 <section class="container mx-auto flex flex-col items-center px-4 mt-32 ">
-    <h2
+    <img src="{{asset('images/logolfnuevocolor.png')}}" alt="" class="h-32 w-auto">
+    {{-- <h2
         class="text-lg block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-gray-400 text-center mb-2 ">
        BIENVENIDOS
-    </h2>
+    </h2> --}}
     <h3
         class="block antialiased tracking-normal font-sans text-3xl font-semibold leading-snug text-amber-500 text-center">
         Studio de Arte y Danza Laura Fidalgo</h3>

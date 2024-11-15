@@ -1,5 +1,5 @@
 <footer aria-label="Site Footer" class="bg-black">
-    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
        
         {{-- <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
             Un espacio de amor y disciplina que te invita a compartir en familia para dar vuelo a tu arte.
@@ -45,9 +45,9 @@
 
 
         </ul>
-        <div class="flex justify-center text-teal-600">
+        {{-- <div class="flex justify-center text-teal-600">
             <img src="{{ asset('images/firmablanco.png') }}" alt="">
-        </div>
+        </div> --}}
 
     </div>
 </footer>
