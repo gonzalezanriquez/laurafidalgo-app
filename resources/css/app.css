@@ -1,41 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
 * {
     font-family: 'Poppins', sans-serif !important;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 [x-cloak] {
     display: none;
 }
 
 @keyframes appear {
-    from{
+    from {
         opacity: 0;
-        /* scale:0.5; */
-
     }
-    to{
+    to {
         opacity: 1;
-        /* scale: 1; */
     }
-
-
 }
 
-.block{
-    animation:appear  linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+.block {
+    animation: appear 1s ease-in-out forwards;
 }
 
-
+/* Animaciones para los otros movimientos */
 @keyframes derecha {
     from {
         transform: translateX(100%);
@@ -48,11 +39,8 @@ body {
 }
 
 .derecha {
-    animation: derecha 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation: derecha 1s ease-in-out forwards;
 }
-
 
 @keyframes izquierda {
     from {
@@ -65,12 +53,9 @@ body {
     }
 }
 
-.izquierda{
-    animation: izquierda 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+.izquierda {
+    animation: izquierda 1s ease-in-out forwards;
 }
-
 
 @keyframes abajo {
     from {
@@ -84,10 +69,9 @@ body {
 }
 
 .abajo {
-    animation: abajo 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation: abajo 1s ease-in-out forwards;
 }
+
 @keyframes arriba {
     from {
         transform: translateY(-100%);
@@ -100,7 +84,5 @@ body {
 }
 
 .arriba {
-    animation: arriba 1s ease-in-out;
-    animation-timeline: view();
-    animation-range: entry 0% cover 60%;
+    animation: arriba 1s ease-in-out forwards;
 }

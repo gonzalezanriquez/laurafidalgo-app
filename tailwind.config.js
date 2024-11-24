@@ -1,4 +1,4 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
+// import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 
@@ -14,8 +14,6 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                custom: ['laura', 'sans-serif'],
-                sans: ['Poppins', 'sans-serif'],
 
             },
            

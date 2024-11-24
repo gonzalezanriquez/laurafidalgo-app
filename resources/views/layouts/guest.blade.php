@@ -10,46 +10,27 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Preload para mejorar el rendimiento de la fuente -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" as="style" type="font/woff2" crossorigin="anonymous">
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <!-- Styles --> 
-    <style>
-        @font-face {
-            font-family: 'laura';
-            src: url('{{ asset('fonts/laura.ttf') }}') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
-        body {
-        font-family: 'Poppins', sans-serif;
-    }
-
-    </style>
     @livewireStyles
 </head>
 
-<body class=" font-sans text-white bg-black ">
+<body class="font-sans text-white bg-black">
     
     <x-navbar />
-    <div class="  font-sans text-white">
-
-        
+    <div class="font-sans text-white">
         {{ $slot }}
     </div>
 
     @livewireScripts
-
-
-
-  
-    <x-footer/> 
+    <x-footer /> 
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
 
 </body>
-
 </html>
