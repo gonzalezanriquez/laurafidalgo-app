@@ -3,8 +3,9 @@
     <section class="py-10 ">
 
         <div class="py-2 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-            <h2 class="text-5xl text-center text-black font-semibold font-custom mb-10 text-center ">Sobre mí</h2>
-
+            <div class="container mx-auto px-6 flex justify-center items-center">
+                <span class="text-center   text-6xl   font-custom abajo bg-blue-500 text-white  font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-red-700 mb-5 ">Sober Mi</span>
+            </div>
             <p class="text-black mb-5 text-center sm:text-left">Laura Fidalgo es una destacada <strong>bailarina, coreógrafa y actriz argentina</strong>, reconocida en el mundo del espectáculo por su pasión, destreza y versatilidad en el arte de la danza. Con una <strong>trayectoria de más de 30 años</strong>. Ha trabajado con grandes maestros y ha dejado su marca en escenarios y programas a nivel nacional e internacional. Ha fundado y dirigido escuelas de arte y danza en distintos puntos del país. Productora, directora y coreógrafa de sus espectáculos, transmitiendo su pasión y su amor por el arte.</p>   
              <p class="text-black mb-5 text-center sm:text-left">Su estilo abarca desde la danza clásica y el tango hasta el jazz y los ritmos latinos, fusionando técnica con una expresión artística inigualable. Laura también ha trabajado como coreógrafa para diversas producciones teatrales y eventos, aportando su visión creativa y su pasión por el movimiento. Como docente, comparte su conocimiento y experiencia, inspirando a nuevas generaciones a descubrir la magia de la danza y a desarrollar sus talentos en un ambiente de excelencia y dedicación. Su compromiso con la formación de jóvenes bailarines y su influencia en la comunidad de la danza hacen de Laura Fidalgo una figura clave en el panorama artístico argentino.</p>
            

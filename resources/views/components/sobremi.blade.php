@@ -11,7 +11,7 @@
         <div class="relative flex items-center justify-center h-full">
             <div class="px-10 max-w-xl text-center">
                 <div class="container mx-auto px-6 flex justify-center items-center">
-                    <span class="text-center font-bold text-white text-2xl sm:text-3xl md:text-6xl font-custom abajo bg-amber-500 text-amber-500 font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-amber-500 text-white">
+                    <span class="text-center font-bold text-white text-4xl sm:text-4xl md:text-6xl font-custom abajo bg-amber-500 me-2 px-2.5 py-0.5 rounded dark:bg-amber-500 ">
                         Sobre Mi
                     </span>
                 </div>
@@ -25,4 +25,3 @@
         </div>
     </div>
 </section>
-
