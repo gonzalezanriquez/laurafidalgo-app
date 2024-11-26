@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 
+
 * {
     font-family: 'Poppins', sans-serif !important;
 }
@@ -21,6 +22,31 @@
         opacity: 1;
     }
 }
+
+.video-docker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    perspective: 1px; /* Crea la ilusión de profundidad */
+  }
+  
+  .video-docker video {
+    transform: translateZ(-1px) scale(2); /* Hace que el video se mueva más lento */
+    object-fit: cover;
+  }
+  
+  .video-content {
+    position: relative;
+    z-index: 10;
+    transform: translateZ(0); /* Permite que el contenido se mantenga fijo mientras el video se mueve */
+  }
+  
+
+
+
 
 .block {
     animation: appear 1s ease-in-out forwards;
