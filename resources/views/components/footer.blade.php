@@ -1,16 +1,20 @@
-<footer aria-label="Site Footer" class="bg-black">
+<footer aria-label="Site Footer" class="bg-black text-white">
     <div class="mx-auto max-w-5xl px-4 py-5 sm:px-6 lg:px-8">
-       
-        {{-- <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-            Un espacio de amor y disciplina que te invita a compartir en familia para dar vuelo a tu arte.
-        </p> --}}
+        <div class="text-center">
+            <p class="text-sm">
+                Federico Lacroze 2113, C1426 Cdad. Autónoma de Buenos Aires
+            </p>
+            <p class="text-sm">
+                Teléfono: <a href="tel:+541137663238" class="text-teal-400 hover:underline">11 3766-3238</a>
+            </p>
+            <p class="text-sm">
+                Email: <a href="mailto:contacto@example.com" class="text-teal-400 hover:underline">contacto@example.com</a>
+            </p>
+        </div>
 
-
-
-        <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+        <ul class="mt-6 flex justify-center gap-6 md:gap-8">
             <li>
-                <a href="/" rel="noreferrer" target="_blank"
-                    class="text-gray-700 transition hover:text-gray-700/75">
+                <a href="/" rel="noreferrer" target="_blank" class="text-gray-400 transition hover:text-teal-400">
                     <span class="sr-only">Facebook</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path fill-rule="evenodd"
@@ -19,10 +23,8 @@
                     </svg>
                 </a>
             </li>
-
             <li>
-                <a href="/" rel="noreferrer" target="_blank"
-                    class="text-gray-700 transition hover:text-gray-700/75">
+                <a href="/" rel="noreferrer" target="_blank" class="text-gray-400 transition hover:text-teal-400">
                     <span class="sr-only">Instagram</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path fill-rule="evenodd"
@@ -31,10 +33,8 @@
                     </svg>
                 </a>
             </li>
-
             <li>
-                <a href="/" rel="noreferrer" target="_blank"
-                    class="text-gray-700 transition hover:text-gray-700/75">
+                <a href="/" rel="noreferrer" target="_blank" class="text-gray-400 transition hover:text-teal-400">
                     <span class="sr-only">Twitter</span>
                     <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -42,12 +42,6 @@
                     </svg>
                 </a>
             </li>
-
-
         </ul>
-        {{-- <div class="flex justify-center text-teal-600">
-            <img src="{{ asset('images/firmablanco.png') }}" alt="">
-        </div> --}}
-
     </div>
 </footer>

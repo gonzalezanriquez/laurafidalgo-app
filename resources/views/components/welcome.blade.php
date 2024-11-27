@@ -51,6 +51,23 @@ En esta seccion podras agregar, editar o eliminar las clases del estudio para qu
 
         
     </div>
+    <div>
+        <div class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75M21.75 6.75l-9 6.75-9-6.75M21.75 6.75H2.25" />
+              </svg>
+            <h2 class="ms-3 text-xl font-semibold text-gray-900">
+                <a href="{{route('messages.index')}}">Mensajes</a>
+            </h2>
+        </div>
+
+        <p class="mt-4 text-gray-500 text-sm leading-relaxed">
+            En esta seccion podras agregar, editar o eliminar los docentes del estudio para que se vean reflejadas para tus alumnos        
+        </p>
+
+        
+    </div>
+
 
 
 
