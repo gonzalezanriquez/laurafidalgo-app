@@ -17,9 +17,18 @@
                         @else
                             <img class="rounded-t-lg" src="{{ asset('images/default-avatar.jpg') }}" alt="Default Avatar" />
                         @endif
+                        <p class="text-black text-center mt-5">{{ $docente->nombre }}</p>
                         <div class="p-5">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $docente->nombre }}</h5>
-                            <p class="font-normal text-gray-700 dark:text-gray-400">{{ $docente->disciplina }}</p>
+
+                            <div class="container mx-auto px-2 mb-2 flex justify-center items-center">
+                                
+                                {{-- <span class="text-center  text-md sm:text-xs font-medium  bg-red-700 text-white   me-2 px-2.5 py-0.5 rounded dark:bg-red-700  ">{{ $docente->nombre }}</span>
+                            </div> --}}
+
+                            <div class="container mx-auto px-2 flex justify-center items-center">
+                                
+                                <span class="text-center  text-md sm:text-xs font-medium  bg-gray-500 text-white   me-2 px-2.5 py-0.5 rounded dark:bg-red-700  ">{{ $docente->disciplina }}</span>
+                            </div>
                         </div>
                     </div>
                 @endforeach

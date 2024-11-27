@@ -22,16 +22,16 @@
           <form action="{{ route('messages.store') }}" method="POST" class="space-y-8">
             @csrf
             <div>
-                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
-                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="email@tucuenta.com" required>
+                <label for="email" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
+                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500  w-full p-2.5" placeholder="email@tucuenta.com" required>
             </div>
             <div>
-                <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Asunto</label>
-                <input type="text" id="subject" name="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Asunto" required>
+                <label for="subject" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Asunto</label>
+                <input type="text" id="subject" name="subject" class=" p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Asunto" required>
             </div>
             <div class="sm:col-span-2">
-                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Mensaje</label>
-                <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Escribí tu consulta..."></textarea>
+                <label for="message" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Mensaje</label>
+                <textarea id="message" name="message" rows="6" class=" p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Escribí tu consulta..."></textarea>
             </div>
             <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-700 sm:w-fit">Enviar mensaje</button>
         </form>
