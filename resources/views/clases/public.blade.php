@@ -19,26 +19,28 @@
                         <div>
                             <div class="flex items-center justify-center mb-4">
                                 <img src="{{ asset('images/iconos/calendario.svg') }}" alt="Calendario" class="w-6 h-6">
-                                <h5 class="ml-3 text-slate-800 text-xl font-semibold">
+                                <h5 class="ml-3 text-slate-800 text-md font-semibold">
                                     {{ $clase->nombre }}
                                 </h5>
                             </div>
 
                             <!-- Descripción -->
-                            <p class="block text-center text-slate-600 leading-normal font-light mb-4">
+                            <p class=" text-center text-slate-600 text-sm font-light mb-4">
                                 {{ $clase->descripcion }}
                             </p>
                         </div>
                         <!-- Docente y Horario (siempre al final) -->
                         <div class="mt-4">
                             <p class="text-sm text-center font-semibold text-slate-500 uppercase">
-                                Docente: {{ $clase->docente }}
+                                <div class="container mx-auto px-2 flex justify-center items-center">
+                                    <span class="text-center  text-sm sm:text-xs font-medium  bg-gray-500 text-white   me-2 px-2.5 py-0.5 rounded dark:bg-red-700  ">Docente: {{ $clase->docente }}</span>
+                                </div>
                             </p>
                             <p class="text-base mt-2 font-light text-center">
-                                <span
-                                    class="bg-red-500 text-white text-sm sm:text-xs font-medium px-2 py-1 rounded-full">
-                                    Horario: {{ $clase->horario }}
-                                </span>
+                                <div class="container mx-auto px-2 flex justify-center items-center">
+                                    <span class="text-center  text-sm sm:text-xs font-medium  bg-amber-500 text-white   me-2 px-2.5 py-0.5 rounded dark:bg-red-700 mb-5 ">{{ $clase->horario }}</span>
+                                </div>
+                                
                             </p>
                         </div>
                     </div>

@@ -15,21 +15,24 @@
 }
 
 @keyframes appear {
-    from {
+    from{
         opacity: 0;
+        scale:0.5;
+        /* scale:0.5; */
+
     }
-    to {
+    to{
         opacity: 1;
+        scale: 1;
+        /* scale: 1; */
     }
 }
 
-
-
-
-
-
-.block {
-    animation: appear 1s ease-in-out forwards;
+.block{
+    animation:appear  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 50%;
 }
 
 /* Animaciones para los otros movimientos */
@@ -46,6 +49,9 @@
 
 .derecha {
     animation: derecha 1s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 50%;
 }
 
 @keyframes izquierda {
@@ -61,6 +67,9 @@
 
 .izquierda {
     animation: izquierda 1s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 50%;
 }
 
 @keyframes abajo {
@@ -76,6 +85,9 @@
 
 .abajo {
     animation: abajo 1s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 50%;
 }
 
 @keyframes arriba {
@@ -91,4 +103,7 @@
 
 .arriba {
     animation: arriba 1s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 50%;
 }

@@ -12,63 +12,63 @@
             {{-- FOTOS --}}
             <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 mb-10">
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/1.jpg')}}"
                     alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/11.jpg')}}"
                     alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/5.jpg')}}"
                     alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/2.jpg')}}"
                     alt="gallery-photo" />
                 </div>
             {{-- horizontales --}}
                 <div>
-                    <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                    <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                       src="{{asset('images/sobremi/13.jpg')}}"
                       alt="gallery-photo" />
                   </div>
                   <div>
-                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                         src="{{asset('images/sobremi/14.jpg')}}"
                         alt="gallery-photo" />
                     </div>
                     <div>
-                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                         src="{{asset('images/sobremi/9.jpg')}}"
                         alt="gallery-photo" />
                     </div>
                     <div>
-                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                      <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                         src="{{asset('images/sobremi/12.jpg')}}"
                         alt="gallery-photo" />
                     </div>
             {{-- verticales --}}
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/4.jpg')}}"
                     alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/8.jpg')}}"
                     alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-full max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-full max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/7.jpg')}}" alt="gallery-photo" />
                 </div>
                 <div>
-                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg"
+                  <img class="object-cover object-center w-full h-auto max-w-full rounded-lg block"
                     src="{{asset('images/sobremi/3.jpg')}}" alt="gallery-photo" />
                 </div>
 
@@ -76,7 +76,7 @@
 
               {{-- TIMELINE --}}
               <section class="py-16 bg-gray-400 rounded-xl">
-                <div class="container mx-auto px-6 max-w-6xl text-gray-500">
+                <div class="container mx-auto px-6 max-w-6xl text-gray-500"> 
                     <h2 class=" font-bold text-center text-5xl mb-10">Trabajos</h2>
                     <div class="grid gap-6 lg:grid-cols-3">
                         @foreach($events as $event)         
