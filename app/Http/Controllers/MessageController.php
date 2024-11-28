@@ -17,7 +17,10 @@ class MessageController extends Controller
 
         Message::create($request->all());
 
-        return redirect()->back()->with('success', 'Tu mensaje ha sido enviado exitosamente.');
+        return response()->json(['success' => 'Tu mensaje se ha enviado correctamente.']);
+
+
+        // return redirect()->back()->with('success', 'Tu mensaje ha sido enviado exitosamente.');
     }
 
     public function index()

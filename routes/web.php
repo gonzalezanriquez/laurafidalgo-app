@@ -11,6 +11,7 @@ use App\Http\Controllers\MessageController;
 Route::resource('docentes', DocenteController::class);
 Route::resource('posts', PostController::class);
 Route::resource('clases', ClasesController::class);
+Route::post('/mensajes', [MessageController::class, 'store'])->name('messages.store');
 
 
 
@@ -32,7 +33,6 @@ Route::middleware([ 'auth:sanctum',config('jetstream.auth_session'),'verified',]
     Route::get('/mensajes', [MessageController::class, 'index'])->name('messages.index');
     Route::get('/mensajes/{message}', [MessageController::class, 'show'])->name('messages.show');
     Route::delete('/mensajes/{message}', [MessageController::class, 'destroy'])->name('messages.destroy');
-    Route::post('/mensajes', [MessageController::class, 'store'])->name('messages.store');
 
 
 });

@@ -2,6 +2,8 @@
 
  
     <main class="">
+
+
         <x-hero />
         <x-bienvenida /> 
         <x-niveles />
