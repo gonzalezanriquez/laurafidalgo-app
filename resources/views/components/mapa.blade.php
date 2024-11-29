@@ -18,11 +18,15 @@
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
             Mandanos tu mensaje y nos pondremos en contacto con vos para brindarte toda la informacion que necesitas.
           </p>
-          <form action="{{ route('messages.store') }}" method="POST" class="space-y-8">
+          
+         
+
+          <!-- Formulario de contacto -->
+          <form id="contact-form" action="{{ route('messages.store') }}" method="POST" class="space-y-8">
             @csrf
             <div>
                 <label for="email" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email</label>
-                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500  w-full p-2.5" placeholder="email@tucuenta.com" required>
+                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 w-full p-2.5" placeholder="email@tucuenta.com" required>
             </div>
             <div>
                 <label for="subject" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Asunto</label>
@@ -32,40 +36,46 @@
                 <label for="message" class=" mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Mensaje</label>
                 <textarea id="message" name="message" rows="6" class=" p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300" placeholder="Escribí tu consulta..."></textarea>
             </div>
+             <!-- Mensaje de éxito oculto -->
+          <div id="success-message" class="hidden text-green-600 text-center mb-4">
+            ¡Tu mensaje se ha enviado correctamente!
+          </div>
             <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-700 sm:w-fit">Enviar mensaje</button>
         </form>
         
         </div>
->>>>>>> 426edfed0f1ddb953ddac1828d190b7b0f254540
       </div>
   </div>
 </section>
-
 <script>
   document.getElementById('contact-form').addEventListener('submit', async function(event) {
-      event.preventDefault(); // Evita que el formulario se envíe de manera convencional
+    event.preventDefault(); // Evita que el formulario se envíe de manera convencional
 
-      const form = event.target;
-      const formData = new FormData(form);
+    const form = event.target;
+    const formData = new FormData(form);
 
-      try {
-          const response = await fetch(form.action, {
-              method: 'POST',
-              headers: {
-                  'X-Requested-With': 'XMLHttpRequest',
-                  'X-CSRF-TOKEN': '{{ csrf_token() }}'
-              },
-              body: formData
-          });
+    try {
+        const response = await fetch(form.action, {
+            method: 'POST',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest',
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: formData
+        });
 
-          if (response.ok) {
-              document.getElementById('success-message').classList.remove('hidden'); // Mostrar mensaje de éxito
-              form.reset(); // Limpiar el formulario
-          } else {
-              console.error('Error al enviar el formulario');
-          }
-      } catch (error) {
-          console.error('Error:', error);
-      }
-  });
+        const data = await response.json();
+
+        if (response.ok) {
+            // Mostrar el mensaje de éxito
+            document.getElementById('success-message').classList.remove('hidden');
+            form.reset(); // Limpiar el formulario
+        } else {
+            console.error('Error al enviar el formulario');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+    }
+});
+
 </script>

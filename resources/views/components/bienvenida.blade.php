@@ -1,4 +1,4 @@
-<section class="container mx-auto flex flex-col items-center px-4 mt-32 ">
+<section class="container mx-auto flex flex-col items-center px-4 mt-32 " data-aos="zoom-in-up">
     <img src="{{asset('images/logolfnuevocolor.png')}}" alt="" class="h-32 w-auto">
 
     <h3 class="block antialiased tracking-normal font-sans text-3xl font-semibold leading-snug text-amber-500 text-center">

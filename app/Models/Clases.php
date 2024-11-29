@@ -14,5 +14,6 @@ class Clases extends Model
         'descripcion',
         'docente',
         'horario',
+        'categoria', 
     ];
 }

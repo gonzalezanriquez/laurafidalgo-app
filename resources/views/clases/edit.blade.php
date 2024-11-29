@@ -10,26 +10,35 @@
                 
                 <!-- Nombre de la clase -->
                 <div class="mb-4">
-                    <label for="nombre" class=" text-sm font-medium text-gray-700">Nombre de la clase</label>
+                    <label for="nombre" class="text-sm font-medium text-gray-700">Nombre de la clase</label>
                     <input type="text" name="nombre" id="nombre" value="{{ old('nombre', $clase->nombre) }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
                 </div>
                 
                 <!-- Descripción -->
                 <div class="mb-4">
-                    <label for="descripcion" class=" text-sm font-medium text-gray-700">Descripción</label>
-                    <textarea name="descripcion" id="descripcion" rows="4" class="mt-1  w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>{{ old('descripcion', $clase->descripcion) }}</textarea>
+                    <label for="descripcion" class="text-sm font-medium text-gray-700">Descripción</label>
+                    <textarea name="descripcion" id="descripcion" rows="4" class="mt-1 w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>{{ old('descripcion', $clase->descripcion) }}</textarea>
                 </div>
 
                 <!-- Docente -->
                 <div class="mb-4">
-                    <label for="docente" class=" text-sm font-medium text-gray-700">Docente</label>
-                    <input type="text" name="docente" id="docente" value="{{ old('docente', $clase->docente) }}" class="mt-1  w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                    <label for="docente" class="text-sm font-medium text-gray-700">Docente</label>
+                    <input type="text" name="docente" id="docente" value="{{ old('docente', $clase->docente) }}" class="mt-1 w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
                 </div>
 
                 <!-- Horario -->
                 <div class="mb-4">
-                    <label for="horario" class=" text-sm font-medium text-gray-700">Horario</label>
-                    <input type="text" name="horario" id="horario" value="{{ old('horario', $clase->horario) }}" class="mt-1  w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                    <label for="horario" class="text-sm font-medium text-gray-700">Horario</label>
+                    <input type="text" name="horario" id="horario" value="{{ old('horario', $clase->horario) }}" class="mt-1 w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                </div>
+
+                <!-- Categoría -->
+                <div class="mb-4">
+                    <label for="categoria" class="text-sm font-medium text-gray-700">Categoría</label>
+                    <select name="categoria" id="categoria" class="mt-1 w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" required>
+                        <option value="niños" {{ old('categoria', $clase->categoria) == 'niños' ? 'selected' : '' }}>Niños</option>
+                        <option value="adultos y adolescentes" {{ old('categoria', $clase->categoria) == 'adultos y adolescentes' ? 'selected' : '' }}>Adultos y Adolescentes</option>
+                    </select>
                 </div>
                 
                 <div class="flex justify-end">

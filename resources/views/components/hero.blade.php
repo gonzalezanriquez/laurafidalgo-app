@@ -4,8 +4,8 @@
       <video 
           class="absolute top-0 left-0 w-full h-full object-cover"
           src="{{ asset('images/videos/inicio.webm') }}"
-          autoplay muted loop>
-      </video>
+          autoplay muted loop playsinline>
+        </video>
       <!-- Overlay -->
       <div class="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
   </div>

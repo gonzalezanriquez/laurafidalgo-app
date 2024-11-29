@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('descripcion');
             $table->string('docente');
             $table->string('horario');
+            $table->string('categoria');
             $table->timestamps();
    
         });

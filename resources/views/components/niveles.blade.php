@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6">
  
             <div class="container mx-auto px-6 flex justify-center items-center">
-                <span class="text-center font-bold text-white text-6xl   font-custom abajo bg-red-500 text-red-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-red-700 text-white abajo">Clases</span>
+                <span class="text-center font-bold text-white text-6xl   font-custom abajo bg-red-500 text-red-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-red-700 text-white abajo" data-aos="zoom-in-up">Clases</span>
             </div>
             
             
@@ -10,7 +10,7 @@
         <div class="md:flex mt-8 md:-mx-4 space-y-8 md:space-y-0"> 
 
             <a href="{{route('clases.public')}}">
-            <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105 izquierda"
+            <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105 izquierda" data-aos="fade-right" data-aos-duration="2000"
                 style="background-image: url('{{ asset('images/galeria/7.jpg') }}') ">
                 <div class="bg-black bg-opacity-30 flex items-center h-full">
                     <div class="px-10 max-w-xl">
@@ -31,7 +31,7 @@
             </div>
 
             <a href="{{route('clases.public')}}">
-            <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105 derecha"
+            <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-top md:w-1/2 duration-500 hover:scale-105 derecha"data-aos="fade-left" data-aos-duration="2000"
                 style="background-image: url('{{ asset('images/galeria/2.jpg') }}') ">
                 <div class="bg-black bg-opacity-30 flex items-center h-full">
                     <div class="px-10 max-w-xl">

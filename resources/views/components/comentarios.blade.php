@@ -6,15 +6,15 @@
 				{{-- <h2 class="text-7xl font-bold font-custom block">Opiniones</h2> --}}
                 
                 <div class="container mx-auto px-6 flex justify-center items-center">
-                    <span class="text-center font-bold text-white text-6xl   font-custom abajo bg-blue-900 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 text-white ">Opiniones</span>
+                    <span class="text-center font-bold text-white text-6xl   font-custom abajo bg-blue-900 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 text-white " data-aos="zoom-in">Opiniones</span>
                 </div>
 
 			</div>
 			<div class="p-6 xl:col-span-3">
 				<div class="grid gap-4 md:grid-cols-2">
 					<div class="grid content-center gap-4">
-						<div class="p-6 rounded  bg-gray-900  duration-500 hover:scale-105 hover:shadow-xl izquierda">
-                            <div class="flex items-center space-x-4">
+						<div class="p-6 rounded  bg-gray-900  duration-500 hover:scale-105 hover:shadow-xl izquierda " data-aos="zoom-in">
+                            <div class="flex items-center space-x-4 ">
 								<div>
 									
                                     <header class="flex justify-center pt-5">
@@ -32,7 +32,7 @@
 							<p>Es como si Laura te invitara a su casa, súper cálido el ambiente. Los profesores son un amor y muy buena enseñanza.</p>
 							<p class="text-sm font-bold text-amber-400">Lara Micaela Reta</p>
 						</div>
-						<div class="p-6 rounded  bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl izquierda">
+						<div class="p-6 rounded  bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl izquierda " data-aos="zoom-in">
                             <div class="flex items-center space-x-4">
 								<div>
 									
@@ -54,7 +54,7 @@
 						</div>
 					</div>
 					<div class="grid content-center gap-4">
-						<div class="p-6 rounded  bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl derecha">
+						<div class="p-6 rounded  bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl derecha " data-aos="zoom-in">
                             <div class="flex items-center space-x-4">
 								<div>
 									
@@ -73,7 +73,7 @@
 							<p>La atención es excelente. El protocolo y la limpieza es increíble. Los profesores muy buena onda .</p>
 							<p class="text-sm font-bold text-amber-400">Lara Micaela Reta</p>
 						</div>
-						<div class="p-6 rounded bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl derecha">
+						<div class="p-6 rounded bg-gradient-to-r  bg-gray-900 duration-500 hover:scale-105 hover:shadow-xl derecha " data-aos="zoom-in">
                             <div class="flex items-center space-x-4">
 								<div>
 									
